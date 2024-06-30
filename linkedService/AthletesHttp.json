@@ -1,12 +1,15 @@
 {
 	"name": "AthletesHttp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
 			"url": "https://github.com/shyamc2013/tokyo-olympic-azure-data-engineering-project/blob/main/data/Athletes.csv",
 			"enableServerCertificateValidation": true,
-			"authenticationType": "Anonymous"
+			"authenticationType": "Basic",
+			"userName": "shyamc2013",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBBREFDQ0UzLTkyMjQtNDI3Mi05NDFGLTA2NzdDMjA4Qjc5Ql9jNWM4NTczZi1iODkzLTQ0ZTYtYmUwYi04N2U2YTUyNmNiYzQiDQp9"
 		}
 	}
 }
