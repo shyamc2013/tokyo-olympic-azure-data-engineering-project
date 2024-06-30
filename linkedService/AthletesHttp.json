@@ -1,0 +1,12 @@
+{
+	"name": "AthletesHttp",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/shyamc2013/tokyo-olympic-azure-data-engineering-project/blob/main/data/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
