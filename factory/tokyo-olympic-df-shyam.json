@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-df-shyam",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "da9f821e-a9f0-4a90-b055-41b4325b2e2d",
+		"tenantId": "0043d964-e182-46bc-b18b-5a0257075247"
+	}
+}
